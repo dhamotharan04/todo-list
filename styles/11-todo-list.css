@@ -1,0 +1,30 @@
+body{
+  font-family: Arial;
+}
+.js-todo-list,.todo-input-grid{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.todo-input-grid{
+  margin-bottom: 10px;
+}
+/* input{
+  border: 2px solid rgb(223, 216, 216);
+  border-radius: 3px;
+  padding: 5px;
+  margin-right: 5px;
+} */
+.add{
+  padding: 6px 20px;
+  border: none;
+  background-color: rgb(20, 125, 20);
+  color: white;
+}
+button{
+   padding: 6px 20px;
+    border: none;
+    background-color: rgb(226, 72, 75);
+    color: white;
+}
